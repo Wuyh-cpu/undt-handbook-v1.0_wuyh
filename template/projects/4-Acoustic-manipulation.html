@@ -1,0 +1,553 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Acoustic Levitation and Manipulation &#8212; UNDT Handbook</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script src="../../_static/tabs.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'template/projects/4-Acoustic-manipulation';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="UNDT Resources" href="../resources/index.html" />
+    <link rel="prev" title="Eddy Current" href="3-Eddy-current.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../../guide/what-is-our-handbook.html">
+  
+  
+  
+  
+  
+    <p class="title logo__title">UNDT Handbook</p>
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../guide/what-is-our-handbook.html">
+                    What is Our Handbook?
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">UNDT group</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../welcome.html">Welcome</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../our-team/index.html">Our Team ✨</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../our-team/work-with-us.html">Working with us</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../our-team/past-members.html">Past team members</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Lab Area</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="1-Ultrasound.html">Ultrasound</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2-Laser-room.html">Laser Room</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3-Eddy-current.html">Eddy Current</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Acoustic Levitation and Manipulation</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../resources/index.html">UNDT Resources</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../resources/undb/index.html">UNDb - The UNDT Sample Database</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../resources/undb/database-search.html">Database Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../resources/undb/database-new-entry.html">Adding new records</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/template/projects/4-Acoustic-manipulation.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Acoustic Levitation and Manipulation</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#brief-description">Brief Description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#associated-researchers">Associated Researchers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-topics">Research Topics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#current">Current</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prospective-future">Prospective / Future</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#papers">Papers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collaborators">Collaborators</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#facilities">Facilities</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="acoustic-levitation-and-manipulation">
+<h1>Acoustic Levitation and Manipulation<a class="headerlink" href="#acoustic-levitation-and-manipulation" title="Permalink to this heading">#</a></h1>
+<img align="middle" src = "https://user-images.githubusercontent.com/97747467/205339709-5b84953f-b99d-456c-96e3-bf885fc9c0e8.JPG" width ="1000" height = "350"> 
+<section id="brief-description">
+<h2>Brief Description<a class="headerlink" href="#brief-description" title="Permalink to this heading">#</a></h2>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;The acoustic radiation force (or ARF) has been used to levitate objects in the air since 1980/90’s when Eugene Trinh did his pioneering work at the Jet Propulsion Lab. By the way, Trinh lived the dream and became an astronaut flying on the space shuttle in 1992. At the time, they and others were interested in creating micro-gravity environments (i.e. mini versions of space on earth). However, more earthly applications in container-less processing emerged.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;The acoustic levitation group has experience in a wide range of techniques for controlling particles using sound waves. We build upon the whole research group’s expertise in phased arrays to create new capabilities in the control of particles using sound waves.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;We are well known for our ability to levitate particles in the air. In some of our most famous work, we demonstrated one-sided acoustic levitation using a phased array https://www.nature.com/articles/ncomms9661. We also demonstrated the world’s first acoustically powered volumetric display https://aip.scitation.org/doi/10.1063/1.5113467.</p>
+<p align="justify">&nbsp;However, our widest-reaching work in this area was also one of the simplest: the creation of the TinyLev https://aip.scitation.org/doi/10.1063/1.4989995. This is a low-cost, open-source acoustic levitator which, thanks to its ease of use, accessibility and low cost, has been used for a whole range of scientific applications, as well as being hugely popular amongst hobbyists and science communicators. The instructions are available on Instructables https://www.instructables.com/Acoustic-Levitator/  and a kit can be purchased for as little as $70 (at the time of writing).</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;We also manipulate particles in water. We were part of a cross-university team which created a powerful set of acoustic tweezers capable of manipulating individual microparticles https://aip.scitation.org/doi/10.1063/1.4870489 </p>
+</section>
+<section id="associated-researchers">
+<h2>Associated Researchers<a class="headerlink" href="#associated-researchers" title="Permalink to this heading">#</a></h2>
+<p><strong>1. Mario Ortega Sandoval</strong><br />
+{ <a class="reference external" href="mailto:mario&#46;ortegasandoval&#37;&#52;&#48;bristol&#46;ac&#46;uk">mario<span>&#46;</span>ortegasandoval<span>&#64;</span>bristol<span>&#46;</span>ac<span>&#46;</span>uk</a> }</p>
+<p>  <img align="left" src = "https://user-images.githubusercontent.com/97747467/200842756-227e4e53-bbc9-4448-99f3-1aba2338e409.png" width ="150"></p>
+<p><strong>2. Riaz Pervez</strong> <br />
+{ <a class="reference external" href="mailto:av20440&#37;&#52;&#48;bristol&#46;ac&#46;uk">av20440<span>&#64;</span>bristol<span>&#46;</span>ac<span>&#46;</span>uk</a> }</p>
+<p>    <img align="left" src = "https://user-images.githubusercontent.com/97747467/200842686-7895092d-078a-420e-bf5c-beb0e5208914.jpeg" width ="180"></p>
+<p><strong>3. Chris Stone</strong> <br />
+{ <a class="reference external" href="mailto:c&#46;stone&#37;&#52;&#48;bristol&#46;ac&#46;uk">c<span>&#46;</span>stone<span>&#64;</span>bristol<span>&#46;</span>ac<span>&#46;</span>uk</a> }</p>
+<p>    <img align="left" src = "https://github.com/Mrpervez/undt-handbook-v1.0_riaz/blob/main/book/template/projects/Chris.jpg" width ="180"></p>
+<p><strong>4. Dr. Luke Cox</strong> <br />
+{ <a class="reference external" href="mailto:luke&#46;cox&#37;&#52;&#48;bristol&#46;ac&#46;uk">luke<span>&#46;</span>cox<span>&#64;</span>bristol<span>&#46;</span>ac<span>&#46;</span>uk</a> }</p>
+<p>    <img align="left" src = "https://user-images.githubusercontent.com/97747467/200842616-23d7b917-c2e5-4840-832e-9d11333a47ea.jpg" width ="150"></p>
+<p><strong>5. Professor Bruce Drinkwater</strong> <br />
+{ <a class="reference external" href="mailto:B&#46;Drinkwater&#37;&#52;&#48;bristol&#46;ac&#46;uk">B<span>&#46;</span>Drinkwater<span>&#64;</span>bristol<span>&#46;</span>ac<span>&#46;</span>uk</a> }</p>
+<p> <img src = "https://user-images.githubusercontent.com/97747467/200841656-62af1526-aec1-4fdc-8b33-e1c949937ac3.jpg" width ="150"></p>
+</section>
+<section id="research-topics">
+<h2>Research Topics<a class="headerlink" href="#research-topics" title="Permalink to this heading">#</a></h2>
+<section id="current">
+<h3>Current<a class="headerlink" href="#current" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><ins><strong>Acoustic manipulation of micro-particles underwater</strong></ins></p></li>
+</ul>
+<p><em><p align="justify">    Researching particle acoustic manipulation underwater in the 3 dimensions. The goal is to optimize current manipulation devices targeting biomedical applications.</p></em></p>
+<ul class="simple">
+<li><p><ins><strong>Ultrasonic Tweezers for Micro-assembly</strong></ins></p></li>
+</ul>
+<p><em><p align="justify">    In principle, ultrasonic tweezers can manipulate any material and have been shown to be delicate enough to manipulate cells without harming them. Hence, this technology has the potential to both improve and complement existing manipulation technologies, but it also enables completely new manipulation and manufacturing applications. In this project, ultrasonic tweezers will be developed to manipulate solid components on the scale of micrometres to millimetres.  The application focus will be on assembling parts as is required for micro-scale manufacturing operations, for example, the electronic components in a system such as a mobile phone. Successful manipulation is achieved by creating a convergent force field to grip the object using an array of ultrasonic sources or a phase plate.</p></em></p>
+<ul class="simple">
+<li><p><ins><strong>Time independent fluid flows can be induced by the attenuation of acoustic energy</strong></ins></p></li>
+</ul>
+<p><em><p align="justify">    It is a second order phenomenon, and for bulk-driven flows (where the attenuation occurs in the bulk of the fluid) only becomes significant at very high acoustic powers and/or frequencies. The behaviour of high-powered ultrasonic transducers (25-40 kHz) and their resulting streaming fields have been characterised, and the potential applications for this form of acoustic streaming are being explored, such as the manipulation of turbulent boundary layers for flow control.</p></em></p>
+</section>
+<section id="prospective-future">
+<h3>Prospective / Future<a class="headerlink" href="#prospective-future" title="Permalink to this heading">#</a></h3>
+<p><em><p align="justify">    Though acoustic tweezers have come a long way in recent years there is always more to do! We aspire to continue to develop new techniques to increase the capabilities of such devices. We are also interested in developing new applications. In particular, acoustic tweezers have many promising applications in the life sciences where we are supporting development via exciting collaborations. (Under Dr. Luke Cox and Professor Bruce) </p></em></p>
+</section>
+</section>
+<section id="papers">
+<h2>Papers<a class="headerlink" href="#papers" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.nature.com/articles/s41598-022-18554-5">Cox, L., Croxford, A. &amp; Drinkwater, B.W. Dynamic patterning of microparticles with acoustic impulse control. Sci Rep 12, 14549 (2022).</a></p></li>
+<li><p><a class="reference external" href="https://www.betterworldbooks.com/product/detail/9783031040429?shipto=US&amp;curcode=USD">Drinkwater, B.W. The Physical Principles of Arrays for Mid-Air Haptic Applications. In: Georgiou, O., Frier, W., Freeman, E., Pacchierotti, C., Hoshi, T. (eds) Ultrasound Mid-Air Haptics for Touchless Interfaces. Human–Computer Interaction Series. Springer, Cham (2022).</a></p></li>
+<li><p><a class="reference external" href="https://aip.scitation.org/doi/full/10.1063/5.0008351">T. Fushimi, B. W. Drinkwater, T. L. Hill, What is the ultimate capability of acoustophoretic volumetric displays? Appl. Phys. Lett. 116, 244101 (2020).</a></p></li>
+<li><p><a class="reference external" href="https://aip.scitation.org/doi/full/10.1063/1.5113467">Fushimi, T., Marzo, A., Drinkwater, B. W. &amp; Hill, T. L. Acoustophoretic volumetric displays using a fast-moving levitated particle. Appl. Phys. Lett. 115, 064101 (2019).</a></p></li>
+<li><p><a class="reference external" href="https://aip.scitation.org/doi/10.1063/1.5034116">Fushimi, T., Hill, T. L., Marzo, A. &amp; Drinkwater, B. W. Nonlinear trapping stiffness of mid-air single-axis acoustic levitators. Appl. Phys. Lett. 113, 034102 (2018).</a></p></li>
+</ul>
+</section>
+<section id="collaborators">
+<h2>Collaborators<a class="headerlink" href="#collaborators" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><ins><strong>The Armstrong Group</strong></ins>
+<em><p align="justify">    We are currently collaborating with The Armstrong Group at the University of Bristol to support their development of new ultrasound-based technologies for driving the assembly of biomaterials and engineered tissues.
+<a class="reference external" href="https://thearmstronggroup.co.uk/">https://thearmstronggroup.co.uk/</a> </p></em></p></li>
+<li><p><ins><strong>Max Plank Institute for Intelligent Systems: Micro, Nano and Molecular Systems Group</strong></ins>
+<em><p align="justify">    We worked with this group to join our expertise in phased arrays with their expertise in acoustic holograms to demonstrate the capabilities of combining these two powerful techniques.
+The published work on this can be found here: <a class="reference external" href="https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.12.064055">https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.12.064055</a> and
+The group’s information can be found here: <a class="reference external" href="https://pf.is.mpg.de/">https://pf.is.mpg.de/</a>  </p></em></p></li>
+</ul>
+</section>
+<section id="facilities">
+<h2>Facilities<a class="headerlink" href="#facilities" title="Permalink to this heading">#</a></h2>
+<ul>
+<li><p>Ultrasonic Levitation in mid-air
+<a class="reference external" href="https://user-images.githubusercontent.com/97747467/200852336-9bac02cb-e5ac-4c65-be64-08f65347ff57.mp4">https://user-images.githubusercontent.com/97747467/200852336-9bac02cb-e5ac-4c65-be64-08f65347ff57.mp4</a></p></li>
+<li><p>Ultrasonic Levitation in liquid</p></li>
+<li><img src= "https://user-images.githubusercontent.com/97747467/200853105-03439dc3-e5ed-4e4f-b200-38a135de1adb.png" width = "200">
+</li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./template/projects"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="3-Eddy-current.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Eddy Current</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../resources/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">UNDT Resources</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#brief-description">Brief Description</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#associated-researchers">Associated Researchers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-topics">Research Topics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#current">Current</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prospective-future">Prospective / Future</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#papers">Papers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#collaborators">Collaborators</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#facilities">Facilities</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Our Handbook Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
