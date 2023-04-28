@@ -6,6 +6,9 @@ collaborate or partner with your organisation.
 ```
 **Name:** Alex Towlson
 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+
+
 **Mailbox:** at15646@bristol.ac.uk
 
 **Brief description**
