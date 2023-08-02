@@ -6,6 +6,7 @@ collaborate or partner with your organisation.
 ```
 
 **Name:** Atul Sharma
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Atul Sharma%20T.jpg" width ="250"> 
 
 **Mailbox:**bc22647@bristol.ac.uk
 
