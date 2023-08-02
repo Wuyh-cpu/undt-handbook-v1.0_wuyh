@@ -42,9 +42,24 @@ Carbon fibre composites are used in many engineering industries, including aeros
 
 I am a PhD student in Cohort 3 of the FIND-CDT, undertaking research work as part of the Pipebots project, which aims to populate buried pipes with many small, autonomous robots capable of traversing and navigating complex networks, capturing a variety of data describing pipe condition along the way. Specifically, my work is focused on testing the capability of air-coupled ultrasonic arrays in detecting a range of defects in the pipe wall, such as cracks, holes, corrosion and ovality, as well as blockages. The array is used to acquire Full Matrix Capture (FMC), which is processed to produce 3D images of features and defects in the pipe.
 
+
+**Name:** Bond Lau
+
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Bond%20Lau.jpg" width ="250"> 
+
+
+**Mailbox:** bond.lau.2018@bristol.ac.uk
+
+**Brief description**
+
+Project title: Quantitative characterisation of metals using multiple scattering of ultrasonic waves
+
+This project revolves around the exploitation of the multiple scattering phenomenon with respect to ultrasonic waves to quantitatively characterise microstructural properties of metallic materials. These include but are not limited to material grain size, shape, and the orientation of anisotropic crystals found in micro-textured regions.
+There are several major advantages compared to traditional measurements using a single transducer. Firstly, the approach is based entirely on post-processing of the transmitter-receiver backscattered array data, and does not require any changes in array hardware or specific requirements regarding specimen geometry. Secondly, it is possible to extract data for desired local areas within the material, which implies the possibility of microstructural characterisation of each local material region. Finally, the method can also be used for detection and localisation of weak local material inhomogeneities, which are undetectable using conventional imaging (microtextured regions, creep damage etc.
+
 **Name:** Feng Qin
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Feng%20Qin.jpg" width ="250"> 
 
 
 **Mailbox:** feng.qin@bristol.ac.uk
@@ -53,9 +68,23 @@ I am a PhD student in Cohort 3 of the FIND-CDT, undertaking research work as par
 
 Feng Qin received the B.E. degree in mechatronic engineering from Changchun University of Technology, Changchun, China, in 2017, and the MA.Eng. degree in mechanical engineering in Jilin University, Changchun, China, in 2020. He is studying for the Ph.D. degree in Ultrasonics and Non-Destructive Testing (UNDT) group in University of Bristol. His project is novel ultrasonic coupling materials. In the project, he needs to design a metamaterial structure to manipulate the acoustic wave, such as steering and focusing. 
 
+**Name:** James An
+
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/James%20An.jpg" width ="250"> 
+
+
+**Mailbox:** fja16103@bristol.ac.uk
+
+**Brief description**
+
+Project title: Defect Characterisation Using Ultrasonic Arrays
+
+Over the last decades, there has been a rapid increase of using ultrasound arrays to detect and characterize defects. Particularly, post-processing imaging algorithms such as Total Focusing Method (TFM) can be used on a full set of captured matrix data (FMC) to perform high-resolution imaging. However, due to the diffraction of waves, the imaging resolution of ultrasound array is limited to around a wavelength of the ultrasound in use, and this leaves high uncertainty to small defect characterization from its ultrasound image. The scattering behavior from small defects can be extracted (scattering matrix) and used to characterise it. However, the accuracy of characterising procedure is affected by surrounding noise and defect surface condition such as roughness and asperities. This limits the real application of defect characterization using ultrasonic arrays in practice (within 0.1 wavelength accuracy). This project will look to develop a method to characterise defects more accurately by suppressing the effect from surrounding noise and defect surface condition. 
+
+
 **Name:** Luke Cox 
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Luke%20Cox.jpg" width ="250"> 
 
 
 **Mailbox:** luke.cox@bristol.ac.uk
@@ -66,7 +95,7 @@ Luke Cox received his Masters and PhD in Mechanical Engineering from the Univers
 
 **Name:** Xin (Lily) Tu 
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Lily.jpg" width ="250"> 
 
 
 **Mailbox:** xt16846@bristol.ac.uk 
@@ -77,7 +106,7 @@ Lily started Mechanical Engineering (MEng) at University of Bristol in 2016. She
 
 **Name:** Matt Chandler  
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Matt%20chandler.jpg" width ="250"> 
 
 
 **Mailbox:** m.chandler@bristol.ac.uk - https://www.linkedin.com/in/mgchandler  
@@ -88,7 +117,7 @@ Matt received his MSci in Physics with Industrial Experience in 2020 from the Un
 
 **Name:** Meirbek Mussatayev 
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Meirbek.jpg" width ="250"> 
 
 
 **Mailbox:** meirbek.mussatayev@bristol.ac.uk
@@ -108,7 +137,7 @@ Playing football, fishing, reading, watching movies.
 
 **Name:** Qiming Kong  
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Qiming.jpg" width ="250"> 
 
 
 **Mailbox:** qiming.kong@bristol.ac.uk  
@@ -119,7 +148,7 @@ Qiming Kong was born in China in 1996. He received the M.Eng. degree in Industri
 
 **Name:**Richard Pyle 
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Richard%20Pyle.jpg" width ="250"> 
 
 
 **Mailbox:** rp14082@my.bristol.ac.uk 
@@ -131,7 +160,7 @@ Qiming Kong was born in China in 1996. He received the M.Eng. degree in Industri
 
 **Name:**Weixin Wang 
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Weixin.jpg" width ="250"> 
 
 
 **Mailbox:** du20978@bristol.ac.uk, wx.wang@bristol.ac.uk 
@@ -143,7 +172,7 @@ A major barrier to characterise materials is the lack of techniques to measure m
 
 **Name:**Yangjie Chen 
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Yangjie.jpg" width ="250"> 
 
 
 **Mailbox:**  yangjie.chen@bristol.ac.uk 
@@ -151,10 +180,21 @@ A major barrier to characterise materials is the lack of techniques to measure m
 **Brief description**
 I completed Mechanical Engineering BSc at University of Bristol, and then went to University of Warwick for Engineering Business Management MSc. I took a gap year before joining Bristol UNDT group to pursue a PhD degree. Thanks to the support from FIND CDT, I am enjoying my research on thickness measurement optimisation for inductively coupled ultrasonic transducer system with Anthony, Paul, and Jie. Alongside my PhD, I’m working as an intern for Inductosense Ltd, developing crack monitoring systems. Hobby wise, I watch formula 1, I play badminton, former sneakerhead, I also like cooking (for my wife). 
 
+**Name:**Yanghao Wu 
+
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Yanghao.jpg" width ="250"> 
+
+
+**Mailbox:**  ai20797@bristol.ac.uk 
+
+**Brief description**
+Project title: Generic small robot for replacing manual ultrasonic inspection tasks
+  
+
 
 **Name:**Zubeir M. Ebrahim Saib
 
-&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Alex%20T.jpg" width ="250"> 
+&nbsp;&nbsp;<img align="left" src = "https://github.com/Wuyh-cpu/undt-handbook-v1.0_wuyh/blob/main/book/template/our-team/Zubeir.jpg" width ="250"> 
 
 
 **Mailbox:**  z.ebrahimsaib@bristol.ac.uk 
